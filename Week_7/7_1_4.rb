@@ -21,7 +21,6 @@ end
 persons = ["Carolina", "Alejandro", "Maria Jesús", "Valentín"]
 ages = [32, 28, 41, 19]
 
-
 jach = Hash[persons.map(&:to_sym).zip(ages).to_h]
 
 avg = avg_of_hash_vales(jach)
