@@ -25,7 +25,8 @@ any = Anything.new
 any.foo
 any.bar
 any.a
-Ejercicio 2: Sintaxis.
+
+# Ejercicio 2: Sintaxis.
 
 Corrige el siguiente código para instanciar el objeto y generar la salida de manera correcta.
 
@@ -36,7 +37,7 @@ end
 
 car = Car.new('Camaro', 2016)
 puts "Mi auto favorito es un #{car.model} del año #{car.year}!"
-Ejercicio 3: Sintaxis.
+# Ejercicio 3: Sintaxis.
 
 Copia el siguiente código y ejecútalo. Luego corrige los errores para poder imprimir el nombre de la tienda.
 
@@ -47,14 +48,14 @@ class Store
 end
 store = store.new('Tienda 1')
 puts store.name
-Ejercicio 4: Constructor con argumentos.
+# Ejercicio 4: Constructor con argumentos.
 
 Crea una clase llamada Dog cuyo constructor reciba como argumento un hash con la siguiente estructura:
 
 propiedades = {nombre: 'Beethoven', raza: 'San Bernardo', color: 'Café'}
 Instanciar un nuevo perro a partir de las propiedades contenidas en el hash. Luego generar un método llamado ladrar que, mediante interpolación, imprima "Beethoven está ladrando!"
 
-Ejercicio 5: Traductor entero a código Morse.
+# Ejercicio 5: Traductor entero a código Morse.
 
 Se tiene la clase Morseable que contiene un método de instancia generate_hash los datos de traducción de número entero a código morse.
 
@@ -87,7 +88,7 @@ print m.to_morse
 Se pide:
 
 Refactorizar el código del método de instancia generate_hash para que los datos estén contenidos en un hash donde los números serán las claves y la traducción los valores. El método generate_hash además debe retornar la traducción del número recibido como argumento.
-Ejercicio 6: Objetos y archivos.
+# Ejercicio 6: Objetos y archivos.
 
 Se tiene un archivo llamado catalogo.txt que contiene los nombres de los productos que ofrece una tienda junto con los precios de las tallas L, M, S y XS.
 
@@ -123,7 +124,7 @@ Optimizar el código implementando el operador splat al momento de instanciar lo
 
 Generar un método que permita calcular el promedio de precio por producto.
 
-Ejercicio 7: Objetos y archivos.
+# Ejercicio 7: Objetos y archivos.
 
 Utilizando el mismo archivo del ejercicio anterior:
 
