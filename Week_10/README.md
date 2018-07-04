@@ -2,7 +2,7 @@
 
 - Para poder realizar este actividad debes haber realizado los cursos previos junto con los videos online correspondientes a la experiencia 10.
 
-- Crea una carpeta y guarda cada archivo .rb con el número de la pregunta, siguiendo las instrucciones de manera local con **Sublime** o **Atom**.
+- Crea una carpeta y guarda cada archivo .rb con el número de la pregunta, siguiendo las instrucciones de manera local con **Sublime**, **Atom**, **vscode**.
 
 - Luego guarda los cambios y súbelos a tu repositorio de Github.
 
@@ -65,12 +65,12 @@ end
 ~~~
 
 Se pide: 
-- Crear una clase *Car* que herede de *Vehicle*
-- El constructor de *Car*, además de heredar las propiedades de *Vehicle*, debe incluir un contador de instancias de *Car*.
-- Crear un método de clase en *Car* que devuelva la cantidad de instancias.
-- El método *engine_start* heredado debe además imprimir *'El motor se ha encendido!'*.
-- Instanciar 10 *Cars*.
-- Consultar la cantidad de instancias generadas de *Car* mediante el método de clase creado.
+#- Crear una clase *Car* que herede de *Vehicle*
+#- El constructor de *Car*, además de heredar las propiedades de *Vehicle*, debe incluir un contador de instancias de *Car*.
+#- Crear un método de clase en *Car* que devuelva la cantidad de instancias.
+#- El método *engine_start* heredado debe además imprimir *'El motor se ha encendido!'*.
+#- Instanciar 10 *Cars*.
+#- Consultar la cantidad de instancias generadas de *Car* mediante el método de clase creado.
 
 ## Ejercicio 4: Módulos
 Transformar la clase *Semana* en un módulo y obtener la misma salida:
@@ -135,17 +135,17 @@ Herviboro.definir
 
 ## Ejercicio 6: Mixins.
 
-- Crear una clase **Student** con un método constructor que recibirá 3 argumentos (nombre, nota1 y nota2). Cada una de las notas tendrá, por defecto, valor **4** en el caso que no se ingrese una nota al momento de crear una nueva instancia.
+#- Crear una clase **Student** con un método constructor que recibirá 3 argumentos (nombre, nota1 y nota2). Cada una de las notas tendrá, por defecto, valor **4** en el caso que no se ingrese una nota al momento de crear una nueva instancia.
  
-- La clase también debe tener una variable de clase llamada **quantity** la que será iniciada en 0 y se incrementará en 1 cada vez que se instancie un nuevo objeto.
+#- La clase también debe tener una variable de clase llamada **quantity** la que será iniciada en 0 y se incrementará en 1 cada vez que se instancie un nuevo objeto.
 
-- Crear un módulo **Test** con un método **result**. Este método debe calcular el promedio de 2 notas y si ese promedio es superior a 4 entregrar un mensaje que debe decir **"Estudiante aprobado"**. En caso contrario, enviará un mensaje **"Estudiante reprobado"**.
+#- Crear un módulo **Test** con un método **result**. Este método debe calcular el promedio de 2 notas y si ese promedio es superior a 4 entregrar un mensaje que debe decir **"Estudiante aprobado"**. En caso contrario, enviará un mensaje **"Estudiante reprobado"**.
 
-- Crear un segundo módulo **Attendance** con un método **student_quantity** que permita mostrar en pantalla la cantidad de estudiantes creados.
+#- Crear un segundo módulo **Attendance** con un método **student_quantity** que permita mostrar en pantalla la cantidad de estudiantes creados.
 
- > Añadir a la clase Student el módulo Test como métodos de instancia y el módulo Attendance como métodos de clase.
+ #> Añadir a la clase Student el módulo Test como métodos de instancia y el módulo Attendance como métodos de clase.
  
-- Crear 10 objetos de la clase Student y utilizar los métodos creados para saber si los alumnos están aprobados o no y, finalmente, mostrar el total de alumnos creados.
+#- Crear 10 objetos de la clase Student y utilizar los métodos creados para saber si los alumnos están aprobados o no y, finalmente, mostrar el total de alumnos creados.
 
 ## Ejercicio 7: Rack
 Se tiene el archivo *config.ru* :
